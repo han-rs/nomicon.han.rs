@@ -1,11 +1,12 @@
 [book]
 author = "The Rust Project Developers"
-title = "The Rustonomicon"
+title = "Rust 死灵书"
 description = "The Dark Arts of Advanced and Unsafe Rust Programming"
 
 [output.html]
+additional-js = ["theme/giscus.js"]
 additional-css = ["theme/nomicon.css"]
-git-repository-url = "https://github.com/rust-lang/nomicon"
+git-repository-url = "https://github.com/han-rs/nomicon.han.rs"
 
 [output.html.redirect]
 # Vec-related chapters.
